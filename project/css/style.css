@@ -1,11 +1,21 @@
-.brand img {
-    width: 100px;
-}
-
 .row {
     width: 100%;
+}
+
+.justify-content-between {
     justify-content: space-between;
+}
+
+.align-items-center {
     align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.brand img {
+    width: 100px;
 }
 
 .d-flex {
@@ -13,12 +23,12 @@
 }
 
 .navigation ul {
-    background-color: rgb(2, 3, 82);
+    background-color: rgb(140, 141, 194);
 }
 
 .navigation ul li {
-    display: inline-block;
     list-style: none;
+    display: inline-block;
     margin: 10px;
     border-top: 2px solid transparent;
 }
@@ -29,12 +39,61 @@
     font-family: Ubuntu, sans-serif;
     font-size: 1.3em;
     color: #fff;
+    transition: color 5s;
 }
 
 .navigation ul li:hover {
-    border-top-color: #555;
+    border-top: 2px solid #555;
 }
 
 .navigation ul li:hover a {
     color: #555;
+}
+
+.w-40 {
+    width: 43%;
+    display: inline-block;
+}
+
+.w-60 {
+    width: 55%;
+    height: 100%;
+    float: left;
+    margin-right: 2%;
+}
+
+.text-muted {
+    color: #555;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    height: 300px;   
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+article {
+    border: 2px solid #555;
+    margin-bottom: 5px;
+    padding: 10px;
 }
